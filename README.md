@@ -1,1 +1,1 @@
-A fully Responsive E-Commerce Shopping Jewelry Website built using html, css, JavaScript and Bootstrap 5 I built while learning Bootstrap
+A fully Responsive E-Commerce Shopping Jewelry Website with html, CSS, JavaScript and Bootstrap 5, I built learning Bootstrap
