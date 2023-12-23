@@ -93,6 +93,11 @@
     #home .carousel-caption p {
         margin: 5px auto;
     }
+
+    .new-arrivals .row:nth-child(1) {
+        width: 90%;
+        margin: auto;
+    }
     
 }
 
@@ -122,5 +127,4 @@
     #home .carousel-caption {
         top: 1rem;
     }
-    
 }
