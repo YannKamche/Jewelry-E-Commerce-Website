@@ -162,7 +162,6 @@ p {
 .wrapper {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    background-color: var(--black-color);
 }
 
 .text-content {
@@ -247,6 +246,12 @@ p {
 }
 
 /* New-arrival Section */
+
+#new-arrivals > div {
+    background-color: var(--black-color);
+}
+
+
 .new-arrivals .banner-info {
 
     position: absolute;
@@ -294,4 +299,27 @@ p {
 {
     transform: scale(1.2);
     opacity: 1;
+}
+
+/* Products Section Design */
+#products > div {
+    background-color: var(--black-color);
+}
+
+.products .nav-tabs {
+    border: 0;
+    justify-content: center;
+}
+
+.products .nav-tabs .nav-link {
+    display: block;
+    padding: 0 30px;
+    border: 1px solid var(--white-color);
+    border-radius: 20px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    height: 36px;
+    margin: 10px;
+    line-height: 34px;
+    text-transform: uppercase;
 }
