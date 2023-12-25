@@ -248,7 +248,7 @@ p {
 /* New-arrival Section */
 
 #new-arrivals > div {
-    background-color: var(--black-color);
+    background-color: var(--secondary-color);
 }
 
 
@@ -316,10 +316,61 @@ p {
     padding: 0 30px;
     border: 1px solid var(--white-color);
     border-radius: 20px;
-    background-color: var(--black-color);
+    background-color: transparent;
     color: var(--white-color);
     height: 36px;
     margin: 10px;
     line-height: 34px;
     text-transform: uppercase;
+    transform: scale(1.0);
+    transition: all 0.3s ease-in-out ;
+}
+
+.products .nav-tabs .nav-link:hover {
+    border-color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+.products .nav-tabs .nav-link.active{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+
+.products .product-info .cat-parent,
+.products .product-info .wishlist i {
+    font-size: 0.875rem;
+    color: var(--white-color);
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+
+.products .product-title a {
+    margin: 0 0 7px;
+    display: block;
+    color: var(--white-color);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.products .rating i {
+    color: #f4f632;
+}
+
+.basket a i {
+    color: var(--white-color);
+}
+
+/* Deal of the day section design */
+#deal {
+    background-image: url('../Assets/img/img-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.deal-of-the-day {
+    backdrop-filter: blur(5px);
 }
