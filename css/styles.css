@@ -326,16 +326,12 @@ p {
     transition: all 0.3s ease-in-out ;
 }
 
-.products .nav-tabs .nav-link:hover {
+.products .nav-tabs .nav-link:hover,
+.products .nav-tabs .nav-link.active {
     border-color: var(--primary-color);
+    color: var(--primary-color);
     transform: scale(1.1);
 }
-
-.products .nav-tabs .nav-link.active{
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-}
-
 
 .products .product-info .cat-parent,
 .products .product-info .wishlist i {
@@ -369,8 +365,27 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .deal-of-the-day {
     backdrop-filter: blur(5px);
+}
+
+/* Blog section style */
+#blog > div {
+    background-color: var(--black-color);
+}
+
+#blog .title {
+    color: var(--primary-color);
+}
+
+.navbar-toggler i:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.fa-times {
+    transform: rotate(360deg);
 }

@@ -1,3 +1,8 @@
+// Change button
+let menuIcon = document.querySelector('.navbar-toggler-icon');
+menuIcon.addEventListener('click', () => {
+    menuIcon.classList.toggle('fa-times');
+});
 // active header
 let topHeader = document.querySelector('.header');
 
