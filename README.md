@@ -1,5 +1,5 @@
-A fully Responsive E-Commerce Shopping Jewelry Website with html, CSS, JavaScript and Bootstrap 5, I built learning Bootstrap 
-Preview: https://kmer-jewelry-shop.netlify.app/
+### A fully Responsive E-Commerce Shopping Jewelry Website with html, CSS, JavaScript and Bootstrap 5, I built learning Bootstrap 
+### Preview: https://kmer-jewelry-shop.netlify.app/
 ![Screenshot (671)](https://github.com/YannKamche/Jewelry-E-Commerce-Website/assets/122357201/5ba4df0a-3a7b-4e1f-aa30-d6bfea3a2514)
 ![Screenshot (672)](https://github.com/YannKamche/Jewelry-E-Commerce-Website/assets/122357201/13d94971-080e-468a-9808-987a1d0af95a)
 ![Screenshot (673)](https://github.com/YannKamche/Jewelry-E-Commerce-Website/assets/122357201/f02e2f4f-03e2-4367-8b8d-1e234bf6fd60)
