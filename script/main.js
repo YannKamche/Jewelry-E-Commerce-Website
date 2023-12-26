@@ -21,3 +21,7 @@ navLinks.forEach(link => {
         navCollapse.classList.remove('show')
     });
 });
+
+// Date
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();

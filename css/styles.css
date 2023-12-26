@@ -389,3 +389,19 @@ p {
 .fa-times {
     transform: rotate(360deg);
 }
+
+/* Footer Section Design */
+.footer {
+    background-color: var(--secondary-color);
+}
+
+.footer .footer-social a i {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .footer-social a:hover i {
+    color: var(--primary-color);
+}
